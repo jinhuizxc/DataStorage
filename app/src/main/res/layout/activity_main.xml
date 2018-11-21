@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bt_sharePreference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用SharedPreferences存储数据" />
+
+    <Button
+        android:id="@+id/bt_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="文件存储数据" />
+
+    <Button
+        android:id="@+id/bt_sqLite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SQLite数据库存储数据" />
+
+    <Button
+        android:id="@+id/bt_contentProvider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用ContentProvider存储数据" />
+
+    <Button
+        android:id="@+id/bt_internet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="网络存储数据" />
+
+</LinearLayout>

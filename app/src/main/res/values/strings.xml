@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DataStorage</string>
+
+    <string name="sharedpreferences">SharedPreferences</string>
+    <string name="filestore">文件存储</string>
+    <string name="sqlite">SqLite数据库操作</string>
+    <string name="contentprovider">内容提供者ContentProvider</string>
+
+
+</resources>
